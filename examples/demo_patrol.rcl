@@ -1,0 +1,29 @@
+# ════════════════════════════════════════════════════════════
+#   Patrol Loop Example (.rcl)
+#   Demonstrates basic rectangle movement, turns, and shield
+# ════════════════════════════════════════════════════════════
+
+# Set cruising speed
+speed 6
+
+# Patrol Leg 1: Move forward 5 steps
+move forward 5 steps
+turn right 90 degrees
+
+# Patrol Leg 2: Move right 3 steps
+move forward 3 steps
+turn right 90 degrees
+
+# Activate defensive shield midway
+ability "shield"
+
+# Patrol Leg 3: Move back along rectangle
+move forward 5 steps
+turn right 90 degrees
+
+# Patrol Leg 4: Complete the loop back to start
+move forward 3 steps
+turn right 90 degrees
+
+# Stop patrol
+stop

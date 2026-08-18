@@ -1,0 +1,28 @@
+# ════════════════════════════════════════════════════════════
+#   Combat Simulation Example (.rcl)
+#   Demonstrates speed changes, offensive and defensive abilities
+# ════════════════════════════════════════════════════════════
+
+# Charge forward at high speed
+speed 9
+move forward 6 steps
+
+# Target acquired: Fire laser beam!
+ability "laser"
+
+# Tactical repositioning
+speed 5
+move left 2 steps
+turn right 45 degrees
+move forward 3 steps
+
+# Deploy protective energy shield
+ability "shield"
+
+# Tactical retreat to origin
+speed 8
+move backward 5 steps
+turn left 45 degrees
+
+# Full stop
+stop

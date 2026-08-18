@@ -1,0 +1,19 @@
+# ════════════════════════════════════════════════════════════
+#   Error Handling Demonstration (.rcl)
+#   Contains intentional syntax errors to test error reporting!
+# ════════════════════════════════════════════════════════════
+
+# Error 1: Unknown command 'fly'
+fly forward 5 steps
+
+# Error 2: Missing direction in 'move'
+move 10 steps
+
+# Error 3: Missing number in 'turn'
+turn left degrees
+
+# Error 4: Missing double quotes in ability
+ability shield
+
+# Valid command at the end
+stop

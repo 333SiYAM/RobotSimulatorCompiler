@@ -1,0 +1,29 @@
+# ════════════════════════════════════════════════════════════
+#   Maze Navigator Example (.rcl)
+#   Demonstrates precise multi-turn navigation
+# ════════════════════════════════════════════════════════════
+
+speed 7
+
+# Enter maze corridor 1
+move forward 3 steps
+turn left 90 degrees
+
+# Corridor 2
+move forward 4 steps
+turn right 90 degrees
+
+# Corridor 3
+move forward 2 steps
+turn right 90 degrees
+
+# Corridor 4
+move forward 4 steps
+turn left 90 degrees
+
+# Exit corridor & boost
+move forward 3 steps
+ability "boost"
+
+# End navigation
+stop

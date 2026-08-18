@@ -1,0 +1,24 @@
+# ════════════════════════════════════════════════════════════
+#   Full Language Showcase & Alias Test (.rcl)
+#   Demonstrates standard syntax alongside keyword aliases
+# ════════════════════════════════════════════════════════════
+
+# Standard keyword syntax
+speed 5
+move forward 4 steps
+turn left 90 degrees
+
+# Alias syntax (supported by Flex lexer & Python lexer)
+# 'go' -> move, 'rotate' -> turn, 'deg' -> degrees
+go forward 3 steps
+rotate right 90 deg
+
+# 'skill' -> ability
+skill "shield"
+skill "laser"
+
+# 'back' -> backward
+move back 2 steps
+
+# 'halt' -> stop
+halt
